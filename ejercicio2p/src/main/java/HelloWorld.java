@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.util.Scanner;
 
 public class HelloWorld {
@@ -6,5 +7,9 @@ public class HelloWorld {
         System.out.println("¿Cuál es tu nombre?");
         String name = scanner.nextLine();
         System.out.println("¡Hola " + name + "!");
+
+        System.out.println("¡Hola " + name + "!");
+        System.out.println("Hoy es: " + LocalDate.now());
+
     }
 }
